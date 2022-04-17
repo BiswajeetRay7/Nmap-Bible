@@ -44,7 +44,7 @@ Download the Windows version of Nmap from www.nmap.org.
 ## Step 2
 Launch the Nmap setup program. Select the default installation (recommended) which will install the entire Nmap suite of utilities. During installation, a helper program called WinPcap will also be installed. WinPcap is required for Nmap to function properly on the Windows platform so do not skip this step.                       
 
-## Step 5
+## Step 3
 Once Nmap has been successfully installed you can verify it is working correctly by
 executing nmap scanme.insecure.org on the command line (located in Start >Programs > Accessories > Command Prompt).
 
@@ -159,37 +159,37 @@ Scan an IPv6 Target                          nmap -6 [target]
 
 ## Discovery Options 
 
-Perform a Ping Only Scan                     nmap -sP [target]
-Don’t Ping                                   nmap -PN [target]
-TCP SYN Ping                                 nmap -PS [target]
-TCP ACK Ping                                 nmap -PA [target]
-UDP Ping                                     nmap -PU [target]
-SCTP INIT Ping                               nmap -PY [target]
-ICMP Echo Ping                               nmap -PE [target]
-ICMP Timestamp Ping                          nmap -PP [target]
-ICMP Address Mask Ping                       nmap -PM [target]
-IP Protocol Ping                             nmap -PO [target]
-ARP Ping                                     nmap -PR [target]
-Traceroute                                   nmap --traceroute [target]
-Force Reverse DNS Resolution                 nmap -R [target]
-Disable Reverse DNS Resolution               nmap -n [target]
-Alternative DNS Lookup                       nmap --system-dns [target]
-Manually Specify DNS Server(s)               nmap --dns-servers [servers] [target]
-Create a Host List                           nmap -sL [targets]
+|rform a Ping Only Scan                     nmap -sP [target]
+|on’t Ping                                   nmap -PN [target]
+|CP SYN Ping                                 nmap -PS [target]
+|CP ACK Ping                                 nmap -PA [target]
+|DP Ping                                     nmap -PU [target]
+|CTP INIT Ping                               nmap -PY [target]
+|CMP Echo Ping                               nmap -PE [target]
+|CMP Timestamp Ping                          nmap -PP [target]
+|CMP Address Mask Ping                       nmap -PM [target]
+|P Protocol Ping                             nmap -PO [target]
+|ARP Ping                                     nmap -PR [target]
+|Traceroute                                   nmap --traceroute [target]
+|Force Reverse DNS Resolution                 nmap -R [target]
+|Disable Reverse DNS Resolution               nmap -n [target]
+|Alternative DNS Lookup                       nmap --system-dns [target]
+|Manually Specify DNS Server(s)               nmap --dns-servers [servers] [target]
+|Create a Host List                           nmap -sL [targets]
 
 ## Advanced Scanning Functions
 
-TCP SYN Scan                                  nmap -sS [target]
-TCP Connect Scan                              nmap -sT [target]
-UDP Scan                                      nmap -sU [target]
-TCP NULL Scan                                 nmap -sN [target]
-TCP FIN Scan                                  nmap -sF [target]
-Xmas Scan                                     nmap -sX [target]
-TCP ACK Scan                                  nmap -sA [target]
-Custom TCP Scan                               nmap --scanflags [flags] [target]
-IP Protocol Scan                              nmap -sO [target]
-Send Raw Ethernet Packets                     nmap --send-eth [target]
-Send IP Packets                               nmap --send-ip [target]
+|TCP SYN Scan                                  nmap -sS [target]
+|TCP Connect Scan                              nmap -sT [target]
+|UDP Scan                                      nmap -sU [target]
+|TCP NULL Scan                                 nmap -sN [target]
+|TCP FIN Scan                                  nmap -sF [target]
+|Xmas Scan                                     nmap -sX [target]
+|TCP ACK Scan                                  nmap -sA [target]
+|Custom TCP Scan                               nmap --scanflags [flags] [target]
+|IP Protocol Scan                              nmap -sO [target]
+|Send Raw Ethernet Packets                     nmap --send-eth [target]
+|Send IP Packets                               nmap --send-ip [target]
 
 ## Port Scanning Options
 Perform a Fast Scan                           nmap -F [target]
