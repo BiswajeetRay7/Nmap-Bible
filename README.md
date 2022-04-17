@@ -5,8 +5,8 @@ All information in this repo is presented for research and learning purpose. No 
 
 # Introduction
 
-Nmap is an open source program released under the GNU General Public License (see www.gnu.org/copyleft/gpl.html). It is an evaluable tool for network administrators which can be used to discover, monitor, and troubleshoot TCP/IP systems. Nmap is a free cross-platform network scanning utility created by Gordon
-“Fyodor” Lyon and is actively developed by a community of volunteers.
+`Nmap is an open source program released under the GNU General Public License (see www.gnu.org/copyleft/gpl.html). It is an evaluable tool for network administrators which can be used to discover, monitor, and troubleshoot TCP/IP systems. Nmap is a free cross-platform network scanning utility created by Gordon
+“Fyodor” Lyon and is actively developed by a community of volunteers.`
 
 A typical Nmap scan Nmap’s award-winning suite of network scanning utilities has been in constant development since 1997 and continually improves with each new release. Version 5.00 of Nmap (released in July of 2009) adds many new features and enhancements
 including:
@@ -49,10 +49,10 @@ Once Nmap has been successfully installed you can verify it is working correctly
 executing nmap scanme.insecure.org on the command line (located in Start >Programs > Accessories > Command Prompt).
 
 ## C:\>nmap scanme.insecure.org
-Starting Nmap 5.00 ( http://nmap.org ) at 2022-08-09 09:36 Central
-Daylight Time
-Interesting ports on scanme.nmap.org (00.00.000.00):
-Not shown: 994 filtered ports
+`Starting Nmap 5.00 ( http://nmap.org ) at 2022-08-09 09:36 Central`
+`Daylight Time`
+`Interesting ports on scanme.nmap.org (00.00.000.00):`
+`Not shown: 994 filtered ports`
 PORT STATE SERVICE
 25/tcp closed smtp
 70/tcp closed gopher
