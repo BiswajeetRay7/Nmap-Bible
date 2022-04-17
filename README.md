@@ -69,18 +69,18 @@ C:\>
 Most popular Linux distributions provide binary Nmap packages which allow for simple installation. Installation on Unix systems requires compiling Nmap from source code.
 
 ### Installing Precompiled Packages for Linux For Debian and Ubuntu based systems
- apt-get install nmap
+ `apt-get install nmap`
 ### For Red Hat and Fedora based systems
- yum install nmap
+` yum install nmap`
 ### For Gentoo Linux based systems
- emerge nmap
+ `emerge nmap`
 ### To check which version of Nmap you are running, type the following command on
 the command line:
- nmap -V
-Nmap version 8.00 ( http://nmap.org )
+ `nmap -V`
+`Nmap version 8.00 ( http://nmap.org )`
 
 ## Once Nmap has been successfully installed, you can verify it is working correctly by executing nmap localhost on the command line.
-$ nmap localhost
+`$ nmap localhost`
 Starting Nmap 8.00 ( http://nmap.org ) at 2022-08-07 00:42 CDT
 Warning: Hostname localhost resolves to 2 IPs. Using 127.0.0.1.
 Interesting ports on e6400 (127.0.0.1):
@@ -259,6 +259,10 @@ Specify a Network Interface                     nmap -e [interface] [target]
 
 ## Nmap Scripting Engine
 Execute Individual Scripts                      nmap --script [script.nse] [target]
+
+
+
+
 Execute Multiple Scripts                        nmap --script [expression] [target]
 Script Categories                               all, auth, default, discovery, external,
 intrusive, malware, safe, vuln
