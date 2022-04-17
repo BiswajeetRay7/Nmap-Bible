@@ -244,36 +244,147 @@ Scan an IPv6 Target                          nmap -6 [target]
 ## Discovery Options 
 
 |rform a Ping Only Scan                     nmap -sP [target]
+
+
+
+
 |on’t Ping                                   nmap -PN [target]
+
+
+
+
 |CP SYN Ping                                 nmap -PS [target]
+
+
+
+
 |CP ACK Ping                                 nmap -PA [target]
+
+
+
+
 |DP Ping                                     nmap -PU [target]
+
+
+
+
 |CTP INIT Ping                               nmap -PY [target]
+
+
+
+
 |CMP Echo Ping                               nmap -PE [target]
+
+
+
+
 |CMP Timestamp Ping                          nmap -PP [target]
+
+
+
+
 |CMP Address Mask Ping                       nmap -PM [target]
+
+
+
+
 |P Protocol Ping                             nmap -PO [target]
+
+
+
+
 |ARP Ping                                     nmap -PR [target]
+
+
+
+
 |Traceroute                                   nmap --traceroute [target]
+
+
+
+
 |Force Reverse DNS Resolution                 nmap -R [target]
+
+
+
+
 |Disable Reverse DNS Resolution               nmap -n [target]
+
+
+
+
 |Alternative DNS Lookup                       nmap --system-dns [target]
+
+
+
+
 |Manually Specify DNS Server(s)               nmap --dns-servers [servers] [target]
+
+
+
+
 |Create a Host List                           nmap -sL [targets]
+
+
+
+
 
 ## Advanced Scanning Functions
 
 |TCP SYN Scan                                  nmap -sS [target]
+
+
+
+
 |TCP Connect Scan                              nmap -sT [target]
+
+
+
+
 |UDP Scan                                      nmap -sU [target]
+
+
+
+
 |TCP NULL Scan                                 nmap -sN [target]
+
+
+
+
 |TCP FIN Scan                                  nmap -sF [target]
+
+
+
+
 |Xmas Scan                                     nmap -sX [target]
+
+
+
+
 |TCP ACK Scan                                  nmap -sA [target]
+
+
+
+
 |Custom TCP Scan                               nmap --scanflags [flags] [target]
+
+
+
+
 |IP Protocol Scan                              nmap -sO [target]
+
+
+
+
 |Send Raw Ethernet Packets                     nmap --send-eth [target]
+
+
+
+
 |Send IP Packets                               nmap --send-ip [target]
+
+
+
 
 ## Port Scanning Options
 Perform a Fast Scan                           nmap -F [target]
@@ -361,8 +472,20 @@ Update the Script Database                      nmap --script-updatedb
 
 ## Ndiff
 Comparison Using Ndiff                          ndiff [scan1.xml] [scan2.xml]
+
+
+
+
 Ndiff Verbose Mode                              ndiff -v [scan1.xml] [scan2.xml]
+
+
+
+
 XML Output Mode                                 ndiff --xml [scan1.xml] [scan2.xml]
+
+
+
+
 
 ## Nmap Port States
 
@@ -387,39 +510,174 @@ cannot determine which respective state the port is actually in
 
 ## CIDR Cross Reference
 Subnet Mask          CIDR
+
+
+
+
 000.000.000.000      /0
+
+
+
 128.000.000.000      /1
+
+
+
+
 192.000.000.000      /2
+
+
+
+
 224.000.000.000      /3
+
+
+
+
 240.000.000.000      /4
+
+
+
+
 248.000.000.000      /5
+
+
+
+
 252.000.000.000      /6
+
+
+
+
 254.000.000.000      /7
+
+
+
+
 255.000.000.000      /8
+
+
+
+
 255.128.000.000      /9
+
+
+
+
 255.192.000.000      /10
+
+
+
+
 255.224.000.000      /11
+
+
+
+
 255.240.000.000      /12
+
+
+
+
 255.248.000.000      /13
+
+
+
+
 255.252.000.000      /14
+
+
+
+
 255.254.000.000      /15
+
+
+
+
 255.255.000.000      /16
+
+
+
+
 255.255.128.000      /17
+
+
+
+
 255.255.192.000      /18
+
+
+
+
 255.255.224.000      /19
+
+
+
+
 255.255.240.000      /20
+
+
+
+
 255.255.248.000      /21
+
+
+
+
 255.255.252.000      /22
+
+
+
+
 255.255.254.000      /23
+
+
+
+
 255.255.255.000      /24
+
+
+
+
 255.255.255.128      /25
+
+
+
+
 255.255.255.192      /26
+
+
+
+
 255.255.255.224      /27
+
+
+
+
 255.255.255.240      /28
+
+
+
+
 255.255.255.248      /29
+
+
+
+
 255.255.255.252      /30
+
+
+
+
 255.255.255.254      /31
+
+
+
+
 255.255.255.255      /32
+
+
+
+
 
 # Common TCP/IP Ports
 Port   Type     Usage
