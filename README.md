@@ -119,26 +119,70 @@ Aggressively scanning some systems may cause them to crash which can lead to und
 # Nmap Online Resources
 Fyodor’s Nmap Book
 www.nmap.org/book/man.html
+
+
+
+
 Nmap Install Guide
 www.nmap.org/book/install.html
+
+
+
+
 Nmap Scripting Engine Documentation
 www.nmap.org/nsedoc/
+
+
+
+
 Zenmap Reference Guide
 www.nmap.org/book/zenmap.html
+
+
+
+
 Nmap Change Log
 www.nmap.org/changelog.html
+
+
+
+
 Nmap Mailing Lists
 www.seclists.org
+
+
+
+
 Nmap Online Scan
 www.nmap-online.com
+
+
+
+
 Security Tools
 www.sectools.org
+
+
+
+
 Nmap Mailing Lists
 www.seclists.org
+
+
+
+
 Nmap Facebook
 www.nmap.org/fb
+
+
+
+
 Nmap Twitter
 www.twitter.com/nmap
+
+
+
+
 Nmap Cookbook
 www.nmapcookbook.com
 
@@ -147,15 +191,55 @@ www.nmapcookbook.com
 ## Basic Scanning Techniques 
 
 Scan a Single Target                         nmap [target]
+
+
+
+
 Scan Multiple Targets                        nmap [target1, target2, etc]
+
+
+
+
 Scan a List of Targets                       nmap -iL [list.txt]
+
+
+
+
 Scan a Range of Hosts                        nmap [range of ip addresses]
+
+
+
+
 Scan an Entire Subnet                        nmap [ip address/cdir]
+
+
+
+
 Scan Random Hosts                            nmap -iR [number]Crop a circle in image online - free 
+
+
+
+
 Excluding Targets from a Scan                nmap [targets] --exclude [targets]
+
+
+
+
 Excluding Targets Using a List               nmap [targets] --excludefile [list.txt]
+
+
+
+
 Perform an Aggressive Scan                   nmap -A [target]
+
+
+
+
 Scan an IPv6 Target                          nmap -6 [target]
+
+
+
+
 
 ## Discovery Options 
 
@@ -264,6 +348,10 @@ Execute Individual Scripts                      nmap --script [script.nse] [targ
 
 
 Execute Multiple Scripts                        nmap --script [expression] [target]
+
+
+
+
 Script Categories                               all, auth, default, discovery, external,
 intrusive, malware, safe, vuln
 Execute Scripts by Category                     nmap --script [category] [target]
